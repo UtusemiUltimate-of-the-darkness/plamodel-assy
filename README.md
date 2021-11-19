@@ -10,12 +10,20 @@ This is assignment of plamodel-assy that the CAD Design Course at Tohoku Electro
 The following is an example of the directory structure in tree form.
 
 - Plane
-  - wingL
-    - wingL.CATProduct (wingL consists of 'parts/partA.CATPart', 'parts/partB.CATPart', and 'parts/partC.CATPart')
-    - parts
-      - partA.CATPart
-      - partB.CATPart
-      - partC.CATPart
+  - Plane.CATProduct
+  - parts
+    - wingL
+      - wingL.CATProduct ( consists of 'parts/partA.CATPart', 'parts/partB.CATPart', and 'parts/partC.CATPart')
+      - parts
+        - partA.CATPart
+        - partB.CATPart
+        - partC.CATPart
+    - body
+      - body.CATProduct (consists of 'parts/partD.CATPart', 'parts/partE.CATPart', and 'parts/partF.CATPart')
+      - parts
+        - partD.CATPart
+        - partE.CATPart
+        - partF.CATPart
 
 ## version info
 
